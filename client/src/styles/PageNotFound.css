@@ -1,0 +1,42 @@
+.page-not-found-div {
+  display: flex;
+  /* border: 2px solid red; */
+  flex-direction: column;
+  height: 90vh;
+}
+.fa-ghost {
+  font-size: 180px;
+  padding-top: 100px;
+  color: aliceblue;
+}
+.error-h1 {
+  font-family: "Proza Libre", sans-serif;
+  padding-top: 20px;
+  font-size: 70px;
+  color: aliceblue;
+}
+.error-p {
+  font-family: "Proza Libre", sans-serif;
+  font-size: 30px;
+  color: aliceblue;
+}
+.error-p2 {
+  padding-top: 10px;
+  font-family: "Proza Libre", sans-serif;
+  font-size: 18px;
+  color: aliceblue;
+}
+@media only screen and (max-width: 768px) {
+  .fa-ghost {
+    font-size: 80px;
+  }
+  .error-h1 {
+    font-size: 50px;
+  }
+  .error-p {
+    font-size: 18px;
+  }
+  .error-p2 {
+    font-size: 15px;
+  }
+}
